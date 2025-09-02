@@ -1,12 +1,16 @@
-# MySQL CMD Practice
+# 📚 Library Management System - MySQL Database
 
-This repository documents my practice with **MySQL using the Command Prompt (CMD)**.  
-It demonstrates essential skills in database management, including:
+A complete MySQL database solution for managing a library system, featuring books, students, borrowing transactions, fines, and administrative functions.
 
-- Connecting to MySQL from CMD
-- Creating and selecting databases
-- Creating tables and defining schemas
-- Inserting and retrieving data
-- Running queries using `SELECT`
+## 🗄️ Database Schema
 
-The purpose of this project is to showcase my ability to work directly with MySQL from the terminal, which is an important foundation for backend development, database management, and software engineering projects.
+The system consists of 8 main tables:
+- **Students** - Library members information
+- **Books** - Book inventory with stock management
+- **BookTags** - Categorization system for books
+- **BorrowedBooks** - Transaction records for book loans
+- **Fines** - Penalty system for overdue books
+- **Admins** - Administrative users
+- **Staff** - Library staff members
+- **Applications** - Book reservation system
+- **ErrorReports** - Issue tracking system
